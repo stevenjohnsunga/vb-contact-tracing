@@ -37,7 +37,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(23, 269)
+        Me.Button1.Location = New System.Drawing.Point(35, 245)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(226, 46)
         Me.Button1.TabIndex = 0
@@ -46,7 +46,7 @@ Partial Class Form1
         '
         'txtname
         '
-        Me.txtname.Location = New System.Drawing.Point(75, 59)
+        Me.txtname.Location = New System.Drawing.Point(87, 35)
         Me.txtname.Name = "txtname"
         Me.txtname.Size = New System.Drawing.Size(174, 23)
         Me.txtname.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(23, 62)
+        Me.Label1.Location = New System.Drawing.Point(35, 38)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(40, 15)
         Me.Label1.TabIndex = 2
@@ -63,7 +63,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(23, 103)
+        Me.Label2.Location = New System.Drawing.Point(35, 79)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(29, 15)
         Me.Label2.TabIndex = 4
@@ -71,7 +71,7 @@ Partial Class Form1
         '
         'txtage
         '
-        Me.txtage.Location = New System.Drawing.Point(75, 100)
+        Me.txtage.Location = New System.Drawing.Point(87, 76)
         Me.txtage.Name = "txtage"
         Me.txtage.Size = New System.Drawing.Size(174, 23)
         Me.txtage.TabIndex = 3
@@ -79,7 +79,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(23, 149)
+        Me.Label3.Location = New System.Drawing.Point(35, 125)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 15)
         Me.Label3.TabIndex = 6
@@ -87,7 +87,7 @@ Partial Class Form1
         '
         'txtgender
         '
-        Me.txtgender.Location = New System.Drawing.Point(75, 146)
+        Me.txtgender.Location = New System.Drawing.Point(87, 122)
         Me.txtgender.Name = "txtgender"
         Me.txtgender.Size = New System.Drawing.Size(174, 23)
         Me.txtgender.TabIndex = 5
@@ -95,7 +95,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(23, 190)
+        Me.Label4.Location = New System.Drawing.Point(35, 166)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 15)
         Me.Label4.TabIndex = 8
@@ -103,7 +103,7 @@ Partial Class Form1
         '
         'txtaddress
         '
-        Me.txtaddress.Location = New System.Drawing.Point(75, 187)
+        Me.txtaddress.Location = New System.Drawing.Point(87, 163)
         Me.txtaddress.Name = "txtaddress"
         Me.txtaddress.Size = New System.Drawing.Size(174, 23)
         Me.txtaddress.TabIndex = 7
@@ -111,7 +111,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(23, 230)
+        Me.Label5.Location = New System.Drawing.Point(35, 206)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 15)
         Me.Label5.TabIndex = 10
@@ -119,7 +119,7 @@ Partial Class Form1
         '
         'txtcontact
         '
-        Me.txtcontact.Location = New System.Drawing.Point(75, 227)
+        Me.txtcontact.Location = New System.Drawing.Point(87, 203)
         Me.txtcontact.Name = "txtcontact"
         Me.txtcontact.Size = New System.Drawing.Size(174, 23)
         Me.txtcontact.TabIndex = 9
@@ -128,7 +128,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1431, 798)
+        Me.ClientSize = New System.Drawing.Size(327, 340)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtcontact)
         Me.Controls.Add(Me.Label4)
@@ -141,6 +141,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtname)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

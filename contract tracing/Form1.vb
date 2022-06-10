@@ -10,5 +10,13 @@
         xd.Close()
         MessageBox.Show("datas has been added")
 
+        txtaddress.Text = ""
+        txtage.Text = ""
+        txtcontact.Text = ""
+        txtgender.Text = ""
+        txtname.Text = ""
+        txtname.Cursor = True
+
+
     End Sub
 End Class
