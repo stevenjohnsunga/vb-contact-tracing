@@ -8,3 +8,18 @@ rom
 rom
 rom
 rom
+name:Steven
+age23
+gendermale
+addresslpc
+contact09052410231
+name:kyla
+age: 22
+gender: fmeale
+address: cavite
+contact: 09125171429
+name:garu
+age: 28
+gender: male
+address: manila
+contact: 091293123

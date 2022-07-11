@@ -16,6 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MessagingToolkit.QRCode" Version="1.3.0" />
+    <PackageReference Include="WebcamCapturer.Core" Version="1.1.1.2" />
+    <PackageReference Include="ZXing.Net" Version="0.16.8" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

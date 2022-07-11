@@ -15,3 +15,5 @@ C:\Users\User\source\repos\contract tracing\contract tracing\obj\Debug\net6.0-wi
 C:\Users\User\source\repos\contract tracing\contract tracing\obj\Debug\net6.0-windows\ref\contract tracing.dll
 C:\Users\User\source\repos\contract tracing\contract tracing\obj\Debug\net6.0-windows\contract tracing.pdb
 C:\Users\User\source\repos\contract tracing\contract tracing\obj\Debug\net6.0-windows\contract tracing.genruntimeconfig.cache
+C:\Users\User\source\repos\contract tracing\contract tracing\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\User\source\repos\contract tracing\contract tracing\obj\Debug\net6.0-windows\contract tracing.vbproj.CopyComplete

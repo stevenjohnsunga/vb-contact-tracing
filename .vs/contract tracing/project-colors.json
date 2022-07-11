@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9cd6f0a9-6ed5-4b09-8253-51429cbd45ed": {
+      "ProjectGuid": "9cd6f0a9-6ed5-4b09-8253-51429cbd45ed",
+      "DisplayName": "contract tracing",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

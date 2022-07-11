@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.txtname = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -33,6 +34,14 @@ Partial Class Form1
         Me.txtaddress = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtcontact = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.txtsamp = New System.Windows.Forms.TextBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -124,11 +133,65 @@ Partial Class Form1
         Me.txtcontact.Size = New System.Drawing.Size(174, 23)
         Me.txtcontact.TabIndex = 9
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(302, 35)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(279, 256)
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(391, 9)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(94, 15)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Scan a QR CODE"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox2.Location = New System.Drawing.Point(597, 35)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(279, 256)
+        Me.PictureBox2.TabIndex = 13
+        Me.PictureBox2.TabStop = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(516, 297)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(121, 46)
+        Me.Button2.TabIndex = 14
+        Me.Button2.Text = "SCAN QR CODE"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'txtsamp
+        '
+        Me.txtsamp.Location = New System.Drawing.Point(302, 345)
+        Me.txtsamp.Multiline = True
+        Me.txtsamp.Name = "txtsamp"
+        Me.txtsamp.Size = New System.Drawing.Size(558, 116)
+        Me.txtsamp.TabIndex = 15
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(327, 340)
+        Me.ClientSize = New System.Drawing.Size(896, 547)
+        Me.Controls.Add(Me.txtsamp)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtcontact)
         Me.Controls.Add(Me.Label4)
@@ -143,6 +206,9 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
+        Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -159,4 +225,10 @@ Partial Class Form1
     Friend WithEvents txtaddress As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtcontact As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Button2 As Button
+    Friend WithEvents txtsamp As TextBox
 End Class
